@@ -1,5 +1,11 @@
 # Homeasy — демонстрация проекта
 
+**English overview.** Homeasy is a working rental-search prototype for Cambodia. It collects and normalizes listings, checks duplicates, and connects an API, Telegram bot and mini app. This repository contains selected real source excerpts and a separate interactive demo with fictional data. The demo is not a benchmark of the live parser.
+
+- [Case study in English](https://portfolio.rustycat.cc/en/homeasy.html)
+- [Interactive demo in English](https://portfolio.rustycat.cc/en/demo-homeasy/index.html)
+- [Кейс на русском](https://portfolio.rustycat.cc/homeasy.html) · [демо на русском](https://portfolio.rustycat.cc/demo-homeasy/index.html)
+
 Homeasy — разрабатываемый агрегатор объявлений об аренде жилья в Камбодже. Рабочий проект объединяет сбор данных из нескольких источников, обработку текстов, поиск повторов, API, Telegram-бота и мини-приложение.
 
 **Интерактивный пример:** скачайте репозиторий и откройте файл `demo/index.html` в браузере. Три вымышленные публикации превращаются в две карточки после нормализации и удаления повтора. Результат можно фильтровать по городу. Пример работает без сервера и доступа к сети: настоящие парсеры, языковая модель, Telegram, рабочие API и пользовательские данные в нём не используются.
@@ -28,4 +34,4 @@ Homeasy — разрабатываемый агрегатор объявлени
 
 Это отдельный публичный материал, а не копия работающего сервиса: исходный проект постоянно развивается и содержит закрытые интеграции и пользовательские данные. Для демонстрации перенесены только файлы из проверенного списка. Git-история рабочего репозитория не копировалась.
 
-Для локального просмотра сборка, установка пакетов и доступ к интернету не требуются. Публичная ссылка на браузерную версию будет добавлена после размещения демонстрации на статическом хостинге.
+Для локального просмотра сборка, установка пакетов и доступ к интернету не требуются. Браузерная версия доступна на [русском](https://portfolio.rustycat.cc/demo-homeasy/index.html) и [английском](https://portfolio.rustycat.cc/en/demo-homeasy/index.html).
